@@ -8,7 +8,7 @@ Feature: HHKUHKJL
     And User clicks on requestOTP button
     Then User clicks on verify button
     And User enters the OTP received on the mobile number
-    Then User should be logged in successfully good morning
+    Then User should be logged in successfully good morning and have a good day
 
 
     Examples:
