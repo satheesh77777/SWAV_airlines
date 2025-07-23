@@ -8,6 +8,6 @@ Feature: Flipkart Login Functionality
     Then User clicks on verify button
 
 
-    Examples:
+    Examples:git
       | mobileNumber       |
       | 9113672922         |
