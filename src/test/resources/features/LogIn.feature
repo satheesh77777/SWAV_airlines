@@ -6,6 +6,9 @@ Feature: Flipkart Login Functionality
     Then User enters "<mobileNumber>"mobile number in the mobile number field
     And User clicks on requestOTP button
     Then User clicks on verify button
+    And User enters the OTP received on the mobile number
+    Then User should be logged in successfully
+
 
 
     Examples:
